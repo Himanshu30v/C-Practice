@@ -18,7 +18,9 @@ Daily practice C programming questions
 |-----|-------|--------|
 | Day 1 | Basic C Program Structure | ✅ Completed |
 | Day 2 | Variables & Input/Output | ✅ Completed |
-| Day 3 | Operators | 🔜 Upcoming |
+| Day 3 | Operators & Logic Building | ✅ Completed |
+| Day 4 | Conditional Statements | 🔜 Upcoming |
+
 
 ---
 

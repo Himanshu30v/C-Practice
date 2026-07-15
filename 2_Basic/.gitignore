@@ -1,3 +1,12 @@
 *.exe
 # Ignore all executable files
 *.exe
+# Executables
+*.exe
+
+# VS Code settings
+.vscode/
+
+# Object files
+*.o
+*.obj

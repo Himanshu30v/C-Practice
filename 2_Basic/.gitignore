@@ -1,1 +1,3 @@
 *.exe
+# Ignore all executable files
+*.exe

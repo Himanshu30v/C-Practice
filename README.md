@@ -14,13 +14,15 @@ Daily practice C programming questions
 
 # 📈 Daily Progress
 
-| Day | Topic | Status |
-|-----|-------|--------|
-| Day 1 | Basic C Program Structure | ✅ Completed |
-| Day 2 | Variables & Input/Output | ✅ Completed |
-| Day 3 | Operators & Logic Building | ✅ Completed |
-| Day 4	| Conditional Statements	| ✅ Completed |
-| Day 5	| Loops	| 🔜 Upcoming |
+| Day   | Topic                  | Status         |
+| ----- | ---------------------- | -------------- |
+| Day 1 | Basic Structure        | ✅              |
+| Day 2 | Variables & I/O        | ✅              |
+| Day 3 | Operators              | ✅              |
+| Day 4 | Conditional Statements | ✅              |
+| Day 5 | Loops                  | ✅              |
+| Day 6 | Functions | ✅ Completed |
+| Day 7 | Recursion | 🔜 Upcoming |
 
 
 ---

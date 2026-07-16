@@ -22,7 +22,8 @@ Daily practice C programming questions
 | Day 4 | Conditional Statements | ✅              |
 | Day 5 | Loops                  | ✅              |
 | Day 6 | Functions | ✅ Completed |
-| Day 7 | Recursion | 🔜 Upcoming |
+| Day 7 | Recursion | ✅ Completed |
+| Day 8 | Arrays (1D Arrays) | 🔜 Upcoming |
 
 
 ---

@@ -24,8 +24,8 @@ int main() {
     printf("Enter three numbers: ");
     scanf("%d %d %d", &a, &b, &c);
 
-   int greater =  findmax(a, b, c);
-    printf("%d is largest number.", greater);
+    findmax(a, b, c);
+    printf("%d is largest number.", findmax(a, b, c));
     
 
     return 0;

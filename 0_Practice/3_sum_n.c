@@ -2,19 +2,7 @@
 
 #include<stdio.h>
 
-void sum(int n) {
-    if(n == 0) {
-        return;
-    }
-
-    sum(n-1);
-    printf("%d", n);
-    if(n != n-1) {
-        printf("+");
-    }
-    
-
-}
+int sum(int n);
 
 int main() {
     int n;
@@ -22,7 +10,20 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    sum(n);
+    printf("Sum is: %d", sum(n));
 
     return 0;
+}
+
+int sum(int n) {
+    if(n==1){
+        return 1;
+    }
+
+    int sumNm1= sum(n-1);
+    int sumN= sumNm1 + n;
+
+    return sumN;
+
+
 }

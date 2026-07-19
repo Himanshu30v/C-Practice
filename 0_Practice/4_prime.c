@@ -20,10 +20,10 @@ int isPrime(int n) {
             
         }
         if(prime ==0) {
-            printf("%d is a prime number.", n);
+            return 1;
         }
         else 
-        printf("%d is not a prime number.", n);
+            return 0;
     }
    
 }

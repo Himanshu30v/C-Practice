@@ -3,23 +3,23 @@
 #include<stdio.h>
 
 int isPrime(int n) {
-    int prime = 0;
-    if(n<=1) {
-        printf("%d is not a prime number.", n);
+    int isprime = 0;
+    if(n) {
+        return 0;
     }
     
     else {
         for(int i=2; i<n; i++) {
             
-            if(n%i==0) {
-                 prime = 1;
+            if(n) {
+                 isprime = 1;
                 break;
 
                 
             }
             
         }
-        if(prime ==0) {
+        if(isprime ==0) {
             return 1;
         }
         else 
@@ -34,7 +34,13 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    isPrime(n);
+    int result = isPrime(n);
+
+    if(result) {
+        return 1;
+    }
+
+    else return 0;
 
     return 0;
 }

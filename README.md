@@ -14,16 +14,22 @@ Daily practice C programming questions
 
 # 📈 Daily Progress
 
-| Day   | Topic                  | Status         |
-| ----- | ---------------------- | -------------- |
-| Day 1 | Basic Structure        | ✅ Complete    |
-| Day 2 | Variables & I/O        | ✅ Complete    |
-| Day 3 | Operators              | ✅ Complete    |
-| Day 4 | Conditional Statements | ✅ Complete    |
-| Day 5 | Loops                  | ✅ Complete    |
-| Day 6 | Functions | ✅ Complete |
-| Day 7 | Recursion | ✅ Complete |
-| Day 8 | Arrays (1D Arrays) | 🔜 Upcoming |
+| Topic                  | Status         |
+| ---------------------- | -------------- |
+| Basic Structure        | ✅     |
+| Variables & I/O        | ✅     |
+| Operators              | ✅     |
+| Conditional Statements | ✅     |
+| Loops                  | ✅     |
+| Functions              | ✅     |
+| Recursion              | ✅     |
+| Recursion              | 🔄     |
+| Arrays                 | ⏳     |
+| Strings                | ⏳     |
+| Pointers               | ⏳     |
+| Structures             | ⏳     |
+| DMA                    | ⏳     |
+| File Handling          | ⏳     |
 
 
 ---

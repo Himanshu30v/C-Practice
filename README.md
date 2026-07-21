@@ -31,6 +31,11 @@ Daily practice C programming questions
 | DMA                    | ⏳     |
 | File Handling          | ⏳     |
 
+## 🎮 Mini Projects
+
+| Project | Concepts Used |
+|---------|---------------|
+| 🎯 Number Guessing Game | Loops, if-else, rand(), srand(), time.h, User Input |
 
 ---
 

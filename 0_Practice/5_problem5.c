@@ -16,22 +16,25 @@ int main()
     printf("Enter your income(in LPA): ");
     scanf("%f", &income);
 
-    if(income <= 2.5) {
+    if (income <= 2.5)
+    {
         tax = 0;
     }
-    else if(income <=5) {
-        tax = (income - 2.5)* 0.05;
+    else if (income <= 5)
+    {
+        tax = (income - 2.5) * 0.05;
     }
-    else if(income <= 10) {
-        tax = (2.5*0.05) + (income - 5)*0.2;
+    else if (income <= 10)
+    {
+        tax = (2.5 * 0.05) + (income - 5) * 0.2;
     }
-    else {
-        tax = (2.5*0.05) + (5*0.2) + (income - 10)*0.3;
+    else
+    {
+        tax = (2.5 * 0.05) + (5 * 0.2) + (income - 10) * 0.3;
     }
 
     printf("Your income is: %.2f\n", income);
     printf("You have to pay %.2f ammount as tax.", tax);
-
 
     return 0;
 }

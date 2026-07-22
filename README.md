@@ -22,7 +22,6 @@ Daily practice C programming questions
 | Conditional Statements | ✅     |
 | Loops                  | ✅     |
 | Functions              | ✅     |
-| Recursion              | ✅     |
 | Recursion              | 🔄     |
 | Arrays                 | ⏳     |
 | Strings                | ⏳     |

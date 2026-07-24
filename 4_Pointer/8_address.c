@@ -2,8 +2,11 @@
 
 #include<stdio.h>
 
-int address(int* i) {
-    printf("The address of i is: %u\n", address(*6));
+int address(int* j) {
+
+    printf("The address of i is: %d\n", j);
+
+    return 0;
     
     
 }
@@ -12,7 +15,7 @@ int main() {
     int* j = &i;
 
     printf("The address of i is: %u\n", &i);
-    address(i);
+    address(j);
 
     return 0;
 }

@@ -3,8 +3,8 @@
 #include<stdio.h>
 
 int address(int* i) {
-    // int* j = &i;
-    printf("The address of i is %u\n", address(6));
+    printf("The address of i is: %u\n", address(*6));
+    
     
 }
 int main() {
@@ -12,7 +12,7 @@ int main() {
     int* j = &i;
 
     printf("The address of i is: %u\n", &i);
-    address(6);
+    address(i);
 
     return 0;
 }

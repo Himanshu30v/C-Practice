@@ -9,6 +9,8 @@ void tenTimes(int *i)
 int main()
 {
     int i = 6;
+    printf("The value of 'i' is: %d\n", i);
+
     tenTimes(&i);
     printf("The value of 10X 'i' is %d\n ", i);
 

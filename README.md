@@ -23,9 +23,9 @@ Daily practice C programming questions
 | Loops                  | ✅     |
 | Functions              | ✅     |
 | Recursion              | ✅     |
+| Pointers               | ✅     |
 | Arrays                 | ⏳     |
 | Strings                | ⏳     |
-| Pointers               | ⏳     |
 | Structures             | ⏳     |
 | DMA                    | ⏳     |
 | File Handling          | ⏳     |

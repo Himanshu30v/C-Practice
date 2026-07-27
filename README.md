@@ -24,7 +24,7 @@ Daily practice C programming questions
 | Functions              | ✅     |
 | Recursion              | ✅     |
 | Pointers               | ✅     |
-| Arrays                 | ⏳     |
+| Arrays                 | 🔄     |
 | Strings                | ⏳     |
 | Structures             | ⏳     |
 | DMA                    | ⏳     |

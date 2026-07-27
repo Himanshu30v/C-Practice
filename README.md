@@ -22,10 +22,10 @@ Daily practice C programming questions
 | Conditional Statements | ✅     |
 | Loops                  | ✅     |
 | Functions              | ✅     |
-| Recursion              | 🔄     |
-| Arrays                 | ⏳     |
+| Recursion              | ✅     |
+| Pointers               | ✅     |
+| Arrays                 | 🔄     |
 | Strings                | ⏳     |
-| Pointers               | ⏳     |
 | Structures             | ⏳     |
 | DMA                    | ⏳     |
 | File Handling          | ⏳     |

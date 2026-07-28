@@ -20,6 +20,9 @@ int main() {
 
     int sum = marks[0] + marks[1]  + marks[2] + marks[3] +marks[4];
 
+    printf("Total marks obtained by the student out of 100 is: %d\n", sum);
+    printf("Percentage is: %.2f", (float)sum/5);
+
     
 
     return 0;

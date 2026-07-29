@@ -28,6 +28,12 @@ int main() {
     {
         printf("Pass with Grade 'A+'\n");
     }
+    else if(percentage <= 90 && percentage >= 80) {
+        printf("Pass with Grade 'A'\n");
+    }
+    else if(percentage < 80 && percentage >= 70) {
+        printf("Pass with Grade 'B");
+    }
     
     return 0;
 }

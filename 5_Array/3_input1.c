@@ -1,8 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
     int marks[5];
-    
+
     printf("Enter marks of Hindi: ");
     scanf("%d", &marks[0]);
 
@@ -18,22 +19,40 @@ int main() {
     printf("Enter marks of Chemistry: ");
     scanf("%d", &marks[4]);
 
-    int sum = marks[0] + marks[1]  + marks[2] + marks[3] +marks[4];
-    float percentage = sum/5;
+    int sum = marks[0] + marks[1] + marks[2] + marks[3] + marks[4];
+    float percentage = sum / 5;
 
     printf("Total marks obtained by the student out of 100 is: %d\n", sum);
     printf("Percentage is: %.2f\n", percentage);
 
-    if (percentage >90)
+    if (percentage > 90)
     {
         printf("Pass with Grade 'A+'\n");
     }
-    else if(percentage <= 90 && percentage >= 80) {
+    else if (percentage <= 90 && percentage >= 80)
+    {
         printf("Pass with Grade 'A'\n");
     }
-    else if(percentage < 80 && percentage >= 70) {
+    else if (percentage < 80 && percentage >= 70)
+    {
         printf("Pass with Grade 'B");
     }
-    
+    else if (percentage < 70 && percentage >= 60)
+    {
+        printf("Pass with Grade 'C'\n");
+    }
+
+    else if (percentage < 60 && percentage >= 50)
+    {
+        printf("Pass with Grade 'D'\n");
+    }
+    else if (percentage < 50 && percentage >= 44)
+    {
+        printf("Pass with Grade 'E'\n");
+    }
+    else
+    {
+        printf("Fail\n");
+    }
     return 0;
 }

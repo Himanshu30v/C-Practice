@@ -19,11 +19,15 @@ int main() {
     scanf("%d", &marks[4]);
 
     int sum = marks[0] + marks[1]  + marks[2] + marks[3] +marks[4];
+    float percentage = sum/5;
 
     printf("Total marks obtained by the student out of 100 is: %d\n", sum);
-    printf("Percentage is: %.2f", (float)sum/5);
+    printf("Percentage is: %.2f\n", percentage);
 
+    if (percentage >90)
+    {
+        printf("Pass with Grade 'A+'\n");
+    }
     
-
     return 0;
 }

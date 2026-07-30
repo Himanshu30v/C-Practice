@@ -6,5 +6,6 @@ int main() {
     printf("Enter Score of the student: ");
     scanf("%d", score[0]);
 
+    
     return 0;
 }

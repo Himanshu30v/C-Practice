@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 int main() {
-    int score[10];
+    int makrs[10];
 
-    printf("Enter Score of the student: ");
-    scanf("%d", score[0]);
+    printf("Enter makrs of the student: ");
+    scanf("%d", makrs[0]);
 
     
     return 0;

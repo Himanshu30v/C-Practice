@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 int main() {
-    int student[10];
+    int score[10];
 
-    printf("Enter student of the student: ");
-    scanf("%d", student[0]);
+    printf("Enter score of the student: ");
+    scanf("%d", score[0]);
 
     
     return 0;

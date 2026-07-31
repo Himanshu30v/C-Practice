@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 int main() {
-    int makrs[10];
+    int student[10];
 
-    printf("Enter makrs of the student: ");
-    scanf("%d", makrs[0]);
+    printf("Enter student of the student: ");
+    scanf("%d", student[0]);
 
     
     return 0;

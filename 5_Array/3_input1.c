@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 int main() {
-    int marks[10];
+    int pte[10];
 
-    printf("Enter marks of the student: ");
-    scanf("%d", marks[0]);
+    printf("Enter pte of the student: ");
+    scanf("%d", pte[0]);
 
     
     return 0;

@@ -1,11 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
-    int tre[10];
+int main()
+{
+    int score[10];
 
-    printf("Enter tre of the student: ");
-    scanf("%d", tre[0]);
+    printf("Enter score of the student: ");
+    scanf("%d", score[0]);
 
-    
     return 0;
 }

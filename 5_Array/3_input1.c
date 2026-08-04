@@ -2,10 +2,10 @@
 
 int main()
 {
-    int str[10];
+    int btr[10];
 
-    printf("Enter str of the student: ");
-    scanf("%d", str[0]);
+    printf("Enter btr of the student: ");
+    scanf("%d", btr[0]);
 
     return 0;
 }

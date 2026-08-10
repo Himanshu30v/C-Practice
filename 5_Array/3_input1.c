@@ -2,10 +2,10 @@
 
 int main()
 {
-    int prt[10];
+    int str[10];
 
-    printf("Enter prt of the student: ");
-    scanf("%d", prt[0]);
+    printf("Enter str of the student: ");
+    scanf("%d", str[0]);
 
     
 

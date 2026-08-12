@@ -2,10 +2,10 @@
 
 int main()
 {
-    int prt[10];
+    int score[10];
 
-    printf("Enter prt of the student: ");
-    scanf("%d", prt[0]);
+    printf("Enter score of the student: ");
+    scanf("%d", score[0]);
 
     
 

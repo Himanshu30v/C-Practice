@@ -40,6 +40,6 @@ Daily practice C programming questions
 
 ## Author
 
-**Himanshu Verma**
+**Himanshu Kumar Verma**
 
 Learning C Programming🚀

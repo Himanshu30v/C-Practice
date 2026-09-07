@@ -2,27 +2,27 @@
 
 int main()
 {
-    int marks[5];
+    int score[5];
 
-    printf("Enter marks of Hindi: ");
-    scanf("%d", &marks[0]);
+    printf("Enter score of Hindi: ");
+    scanf("%d", &score[0]);
 
-    printf("Enter marks of English: ");
-    scanf("%d", &marks[1]);
+    printf("Enter score of English: ");
+    scanf("%d", &score[1]);
 
-    printf("Enter marks of Maths: ");
-    scanf("%d", &marks[2]);
+    printf("Enter score of Maths: ");
+    scanf("%d", &score[2]);
 
-    printf("Enter marks of Physics: ");
-    scanf("%d", &marks[3]);
+    printf("Enter score of Physics: ");
+    scanf("%d", &score[3]);
 
-    printf("Enter marks of Chemistry: ");
-    scanf("%d", &marks[4]);
+    printf("Enter score of Chemistry: ");
+    scanf("%d", &score[4]);
 
-    int sum = marks[0] + marks[1] + marks[2] + marks[3] + marks[4];
+    int sum = score[0] + score[1] + score[2] + score[3] + score[4];
     float percentage = sum / 5.0;
 
-    printf("Total marks obtained by the student out of 500 is: %d\n", sum);
+    printf("Total score obtained by the student out of 500 is: %d\n", sum);
     printf("Percentage is: %.2f\n", percentage);
 
     if (percentage > 90)
